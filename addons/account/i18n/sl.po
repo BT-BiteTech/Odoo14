@@ -10,7 +10,6 @@
 # laznikd <laznik@mentis.si>, 2021
 # jl2035 <jaka.luthar@gmail.com>, 2021
 # Boris Kodelja <boris@hbs.si>, 2021
-# Grega Vavtar <grega@hbs.si>, 2021
 # Martin Trigaux, 2021
 # Matjaz Mozetic <m.mozetic@matmoz.si>, 2021
 # Nejc G <nejc@luxim.si>, 2021
@@ -19,6 +18,7 @@
 # Tadej Lupšina <tadej@hbs.si>, 2022
 # Tomaž Jug <tomaz@editor.si>, 2023
 # Neun Pro, 2023
+# Grega Vavtar <grega@hbs.si>, 2024
 # Katja Deržič, 2024
 # 
 msgid ""
@@ -778,7 +778,7 @@ msgstr "<strong>Družba:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Credit Note Date:</strong>"
-msgstr ""
+msgstr "<strong>Datum dobropisa:</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -818,7 +818,7 @@ msgstr "<strong>Vnosi razvrščeni po:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Incoterm: </strong>"
-msgstr ""
+msgstr "<strong>Incoterm: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -858,7 +858,7 @@ msgstr "<strong>Artikel</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Receipt Date:</strong>"
-msgstr ""
+msgstr "<strong>Datum prejema:</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -2533,7 +2533,7 @@ msgstr "Bančni izpisek"
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "Bank Statement %s.pdf"
-msgstr ""
+msgstr "Bančni izpisek%s.pdf"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_cashbox
@@ -2559,7 +2559,7 @@ msgstr "Postavke bančnega izpiska"
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "Bank Statement.pdf"
-msgstr ""
+msgstr "Bančni izpisek.pdf"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
